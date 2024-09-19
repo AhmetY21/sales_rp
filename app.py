@@ -26,7 +26,7 @@ client = OpenAI(api_key=api_key)
 
 
 def generate_sales_data(num_records):
-    sales_representatives = ['John', 'Alice', 'Bob', 'Charlie']
+    sales_representatives = ['Erman', 'Bugra', 'Ahmet', 'Orhun']
     product_categories = ['Electronics', 'Clothing', 'Home Appliances', 'Books']
     
     sales_data = []
@@ -99,7 +99,7 @@ performance_df = get_max_sales_category(sales_df)
 sales_representatives = performance_df['Sales Representative'].unique().tolist()
 
 # Streamlit title
-st.title("Sales Representative Performance Overview")
+st.title("Sales Representative Performance Overview for Derin Dogma Pusu")
 
 # Dropdown to select the sales representative
 sales_rep_name = st.selectbox('Select a Sales Representative:', options=["Select"] + sales_representatives)

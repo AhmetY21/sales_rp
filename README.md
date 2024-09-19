@@ -1,2 +1,2 @@
 # sales_rp
-Simple PoC for sales_rep project
+Simple PoC for Sales Representative Performance Evaluation and Support Project
